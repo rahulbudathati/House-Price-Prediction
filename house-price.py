@@ -62,7 +62,7 @@ def predict(bed,bath,loc,status,size,facing,Type):
     return model.predict(input_data)[0]
 
 if __name__=="__main__":
-    st.header("House Price Prediction")
+    st.header("INTEGRATED APPROACH FOR RECIDENCIAL PROPERTY PRICE PREDICTION AND LAYOUT DESIGNS")
     st.title("Just Started")
     col1,col2=st.columns([2,1])
     bed=col1.slider( "No.of Bedrooms",max_value=10,min_value=1,value=2)
